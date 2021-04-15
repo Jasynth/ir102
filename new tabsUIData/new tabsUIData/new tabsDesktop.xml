@@ -1,0 +1,747 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<ContentProperties DeviceType="Desktop">
+  <Component type="ScriptPanel" id="Panel1" x="0" y="3" width="800" height="442"
+             bgColour="4294967295" itemColour="4278190080" itemColour2="4294967295"
+             textColour="4278190080" holdIsRightClick="0" saveInPreset="1"
+             visible="0">
+    <Component type="ScriptButton" id="Button2" x="116" y="271" filmstripImage="{PROJECT_FOLDER}switch_metal.png"
+               width="53" height="64" parentComponent="Panel1" processorId="LFO Modulator1"
+               parameterId="Legato"/>
+    <Component type="ScriptButton" id="Button3" x="121" y="363" filmstripImage="{PROJECT_FOLDER}switch_metal.png"
+               width="53" height="64" parentComponent="Panel1" processorId="LFO Modulator1"
+               parameterId="LoopEnabled"/>
+    <Component type="ScriptButton" id="Button4" x="510" y="361" filmstripImage="{PROJECT_FOLDER}switch_metal.png"
+               width="53" height="64" parentComponent="Panel1" processorId="LFO Modulator2"
+               parameterId="LoopEnabled"/>
+    <Component type="ScriptButton" id="Button5" x="505" y="269" filmstripImage="{PROJECT_FOLDER}switch_metal.png"
+               width="53" height="64" parentComponent="Panel1" processorId="LFO Modulator2"
+               parameterId="Legato"/>
+    <Component type="ScriptButton" id="Button6" x="505" y="176" filmstripImage="{PROJECT_FOLDER}switch_metal.png"
+               width="53" height="64" parentComponent="Panel1" processorId="LFO Modulator2"
+               parameterId="TempoSync"/>
+    <Component type="ScriptButton" id="Button1" x="116" y="178" filmstripImage="{PROJECT_FOLDER}switch_metal.png"
+               width="53" height="64" parentComponent="Panel1" processorId="LFO Modulator1"
+               parameterId="TempoSync"/>
+    <Component type="ScriptPanel" id="Panel8" x="3" y="2" parentComponent="Panel1"
+               width="793" height="127" itemColour="4279045389" itemColour2="4281019179"/>
+    <Component type="ScriptPanel" id="Panel5" x="5" y="125" parentComponent="Panel1"
+               width="93" height="315" bgColour="1437248170" itemColour="4288020224"
+               itemColour2="12697278"/>
+    <Component type="ScriptPanel" id="Panel4" x="193" y="125" parentComponent="Panel1"
+               width="97" height="316" bgColour="1437248170" itemColour="4289199872"/>
+    <Component type="ScriptPanel" id="Panel6" x="393" y="125" parentComponent="Panel1"
+               width="95" height="317" bgColour="1437248170" itemColour="4288610048"/>
+    <Component type="ScriptPanel" id="Panel7" x="586" y="126" parentComponent="Panel1"
+               width="97" height="315" bgColour="1437248170" itemColour="4288020224"/>
+    <Component type="ScriptPanel" id="Panel10" x="3" y="32" parentComponent="Panel1"
+               width="798" height="10" bgColour="1437248170" itemColour="4282842880"
+               itemColour2="12697278"/>
+    <Component type="ScriptPanel" id="Panel14" x="3" y="52" parentComponent="Panel1"
+               width="798" height="10" bgColour="1437248170" itemColour="4285202176"
+               itemColour2="12697278"/>
+    <Component type="ScriptLabel" id="Label33" x="718" y="129" parentComponent="Panel1"
+               width="62" height="16" fontSize="17" text="Frequency" fontName="Big Caslon"
+               fontStyle="Bold" editable="0" enabled="0" itemColour2="4227858431"
+               itemColour="4294967295" bgColour="4278190080"/>
+    <Component type="ScriptLabel" id="Label32" x="330" y="129" parentComponent="Panel1"
+               width="65" height="16" fontSize="17" text="Frequency" fontName="Big Caslon"
+               fontStyle="Bold" editable="0" enabled="0" itemColour2="4227858431"
+               itemColour="4294967295" bgColour="4278190080"/>
+    <Component type="ScriptLabel" id="Label24" x="112" y="227" parentComponent="Panel1"
+               width="70" height="17" fontSize="17" text="Sync" fontName="Big Caslon"
+               fontStyle="Bold" editable="0" enabled="0" itemColour2="4227858431"
+               itemColour="4294967295" bgColour="4278190080"/>
+    <Component type="ScriptLabel" id="Label18" x="611" y="348" parentComponent="Panel1"
+               width="68" height="17" fontSize="17" text="Pan" fontName="Big Caslon"
+               fontStyle="Bold" editable="0" enabled="0" itemColour2="4227858431"
+               itemColour="4294967295" bgColour="4278190080"/>
+    <Component type="ScriptLabel" id="Label19" x="407" y="259" parentComponent="Panel1"
+               width="70" height="17" fontSize="17" text="Octave" fontName="Big Caslon"
+               fontStyle="Bold" editable="0" enabled="0" itemColour2="4227858431"
+               itemColour="4294967295" bgColour="4278190080"/>
+    <Component type="ScriptLabel" id="Label20" x="396" y="189" parentComponent="Panel1"
+               width="36" height="16" fontSize="17" text="Pulse" fontName="Big Caslon"
+               fontStyle="Bold" editable="0" enabled="0" itemColour2="4227858431"
+               itemColour="4294967295" bgColour="4278190080"/>
+    <Component type="ScriptLabel" id="Label21" x="588" y="190" parentComponent="Panel1"
+               width="37" height="17" fontSize="17" text="Pulse" fontName="Big Caslon"
+               fontStyle="Bold" editable="0" enabled="0" itemColour2="4227858431"
+               itemColour="4294967295" bgColour="4278190080"/>
+    <Component type="ScriptLabel" id="Label22" x="599" y="260" parentComponent="Panel1"
+               width="70" height="17" fontSize="17" text="Octave" fontName="Big Caslon"
+               fontStyle="Bold" editable="0" enabled="0" itemColour2="4227858431"
+               itemColour="4294967295" bgColour="4278190080"/>
+    <Component type="ScriptLabel" id="Label14" x="25" y="346" parentComponent="Panel1"
+               width="70" height="17" fontSize="17" text="Pan" fontName="Big Caslon"
+               fontStyle="Bold" editable="0" enabled="0" itemColour2="4227858431"
+               itemColour="4294967295" bgColour="4278190080"/>
+    <Component type="ScriptLabel" id="Label16" x="195" y="189" parentComponent="Panel1"
+               width="36" height="16" fontSize="17" text="Pulse" fontName="Big Caslon"
+               fontStyle="Bold" editable="0" enabled="0" itemColour2="4227858431"
+               itemColour="4294967295" bgColour="4278190080"/>
+    <Component type="ScriptLabel" id="Label17" x="219" y="347" parentComponent="Panel1"
+               width="68" height="17" fontSize="17" text="Pan" fontName="Big Caslon"
+               fontStyle="Bold" editable="0" enabled="0" itemColour2="4227858431"
+               itemColour="4294967295" bgColour="4278190080"/>
+    <Component type="ScriptLabel" id="Label15" x="207" y="260" parentComponent="Panel1"
+               width="70" height="17" fontSize="17" text="Octave" fontName="Big Caslon"
+               fontStyle="Bold" editable="0" enabled="0" itemColour2="4227858431"
+               itemColour="4294967295" bgColour="4278190080"/>
+    <Component type="ScriptLabel" id="Label13" x="587" y="122" parentComponent="Panel1"
+               width="95" height="14" fontSize="17" text="Detune" fontName="Big Caslon"
+               fontStyle="Bold" editable="0" enabled="0" itemColour2="4227858431"
+               itemColour="4294967295" bgColour="4278387459"/>
+    <Component type="ScriptLabel" id="Label12" x="394" y="122" parentComponent="Panel1"
+               width="93" height="14" fontSize="17" text="Detune" fontName="Big Caslon"
+               fontStyle="Bold" editable="0" enabled="0" itemColour2="4227858431"
+               itemColour="4294967295" bgColour="4278190080"/>
+    <Component type="ScriptLabel" id="Label11" x="194" y="121" parentComponent="Panel1"
+               width="96" height="17" fontSize="17" text="Detune" fontName="Big Caslon"
+               fontStyle="Bold" editable="0" enabled="0" itemColour2="4227858431"
+               itemColour="4294967295" bgColour="4278190080"/>
+    <Component type="ScriptLabel" id="Label10" x="7" y="121" parentComponent="Panel1"
+               width="90" height="18" fontSize="17" text="Detune" fontName="Big Caslon"
+               fontStyle="Bold" editable="0" enabled="0" itemColour2="4211081216"
+               itemColour="4294967295" bgColour="4278190080"/>
+    <Component type="ScriptLabel" id="Label8" x="17" y="259" parentComponent="Panel1"
+               width="70" height="17" fontSize="17" text="Octave" fontName="Big Caslon"
+               fontStyle="Bold" editable="0" enabled="0" itemColour2="4227858431"
+               itemColour="4294967295" bgColour="4278190080"/>
+    <Component type="ScriptLabel" id="Label9" x="6" y="187" parentComponent="Panel1"
+               width="37" height="16" fontSize="17" text="Pulse" fontName="Big Caslon"
+               fontStyle="Bold" editable="0" enabled="0" itemColour2="4227858431"
+               itemColour="4294967295" bgColour="4278190080"/>
+    <Component type="ScriptSlider" id="Knob1" x="408" y="201" parentComponent="Panel1"
+               filmstripImage="{PROJECT_FOLDER}yellow 128 knob.png" numStrips="128"
+               width="81" height="67" processorId="Waveform Generator2" parameterId="PulseWidth1"
+               middlePosition="0.5" showValuePopup="Below" mode="NormalizedPercentage"
+               suffix="%"/>
+    <Component type="ScriptSlider" id="Knob2" x="209" y="201" parentComponent="Panel1"
+               filmstripImage="{PROJECT_FOLDER}yellow 128 knob.png" numStrips="128"
+               width="97" height="90" processorId="Waveform Generator1" parameterId="PulseWidth2"
+               mode="NormalizedPercentage" suffix="%" middlePosition="0.5" showValuePopup="Below"/>
+    <Component type="ScriptSlider" id="Knob3" x="21" y="200" parentComponent="Panel1"
+               filmstripImage="{PROJECT_FOLDER}yellow 128 knob.png" numStrips="128"
+               width="79" height="59" processorId="Waveform Generator1" parameterId="PulseWidth1"
+               mode="NormalizedPercentage" suffix="%" middlePosition="0.5" showValuePopup="Below"/>
+    <Component type="ScriptSlider" id="Knob4" x="601" y="282" parentComponent="Panel1"
+               filmstripImage="{PROJECT_FOLDER}yellow 128 knob.png" numStrips="128"
+               width="97" height="90" processorId="Waveform Generator2" parameterId="OctaveTranspose2"
+               min="-5" max="5" stepSize="1" middlePosition="0" showValuePopup="Below"/>
+    <Component type="ScriptSlider" id="Knob6" x="601" y="371" parentComponent="Panel1"
+               filmstripImage="{PROJECT_FOLDER}yellow 128 knob.png" numStrips="128"
+               width="97" height="90" mode="Pan" min="-100" max="100" stepSize="1"
+               suffix="L" middlePosition="0" processorId="Waveform Generator2"
+               parameterId="Pan2"/>
+    <Component type="ScriptSlider" id="Knob7" x="601" y="202" parentComponent="Panel1"
+               filmstripImage="{PROJECT_FOLDER}yellow 128 knob.png" numStrips="128"
+               width="78" height="57" mode="NormalizedPercentage" suffix="%"
+               middlePosition="0.5" processorId="Waveform Generator2" parameterId="PulseWidth2"
+               showValuePopup="Below"/>
+    <Component type="ScriptSlider" id="Knob8" x="1" y="109" parentComponent="Panel1"
+               filmstripImage="{PROJECT_FOLDER}MINI_GRAND129_PIANO.png" numStrips="129"
+               width="87" height="89" itemColour2="4227203072" processorId="Waveform Generator1"
+               parameterId="Detune1" min="-100" max="100" middlePosition="0"
+               showValuePopup="Above"/>
+    <Component type="ScriptComboBox" id="ComboBox6" x="613" y="35" max="9" parentComponent="Panel1"
+               itemColour="4278190080" bgColour="4294967295" itemColour2="4227858431"
+               width="124" height="33" processorId="Waveform Generator2" parameterId="WaveForm1"
+               items="Sine&#10;Triangle &#10;Saw &#10;Square&#10;Noise &#10;Triangle 2&#10;Square 2&#10;Trapezoid&#10;Trapezoid 2&#10;"/>
+    <Component type="ScriptComboBox" id="ComboBox8" x="615" y="88" max="9" parentComponent="Panel1"
+               itemColour="4278190080" bgColour="4294967295" itemColour2="4227858431"
+               width="123" height="33" processorId="Waveform Generator2" parameterId="WaveForm2"
+               items="Sine&#10;Triangle &#10;Saw &#10;Square&#10;Noise &#10;Triangle 2&#10;Square 2&#10;Trapezoid&#10;Trapezoid 2&#10;"/>
+    <Component type="ScriptComboBox" id="ComboBox12" x="50" y="88" max="9" parentComponent="Panel1"
+               itemColour="4278190080" bgColour="4294967295" itemColour2="4212728346"
+               processorId="Waveform Generator1" parameterId="WaveForm2" items="Sine&#10;Triangle &#10;Saw &#10;Square&#10;Noise &#10;Triangle 2&#10;Square 2&#10;Trapezoid&#10;Trapezoid 2&#10;"/>
+    <Component type="ScriptComboBox" id="ComboBox13" x="50" y="36" max="9" parentComponent="Panel1"
+               itemColour="4278190080" bgColour="4294967295" itemColour2="4217686346"
+               processorId="Waveform Generator1" parameterId="WaveForm1" items="Sine&#10;Triangle &#10;Saw &#10;Square&#10;Noise &#10;Triangle 2&#10;Square 2&#10;Trapezoid&#10;Trapezoid 2&#10;"/>
+    <Component type="ScriptSlider" id="Knob9" x="190" y="110" parentComponent="Panel1"
+               filmstripImage="{PROJECT_FOLDER}MINI_GRAND129_PIANO.png" numStrips="129"
+               width="103" height="83" processorId="Waveform Generator1" parameterId="Detune2"
+               min="-100" max="100" middlePosition="0" showValuePopup="Above"/>
+    <Component type="ScriptSlider" id="Knob10" x="387" y="108" parentComponent="Panel1"
+               filmstripImage="{PROJECT_FOLDER}MINI_GRAND129_PIANO.png" numStrips="129"
+               width="103" height="83" processorId="Waveform Generator2" parameterId="Detune1"
+               min="-100" max="100" middlePosition="0" stepSize="0.1" showValuePopup="Above"/>
+    <Component type="ScriptSlider" id="Knob11" x="584" y="108" parentComponent="Panel1"
+               filmstripImage="{PROJECT_FOLDER}MINI_GRAND129_PIANO.png" numStrips="129"
+               width="103" height="83" processorId="Waveform Generator2" parameterId="Detune2"
+               min="-100" max="100" middlePosition="0" showValuePopup="Above"
+               stepSize="0.1"/>
+    <Component type="ScriptSlider" id="Knob12" x="407" y="281" parentComponent="Panel1"
+               filmstripImage="{PROJECT_FOLDER}yellow 128 knob.png" numStrips="128"
+               width="97" height="70" processorId="Waveform Generator2" parameterId="OctaveTranspose1"
+               min="-5" max="5" showValuePopup="Below" stepSize="1" middlePosition="0"/>
+    <Component type="ScriptSlider" id="Knob13" x="207" y="281" parentComponent="Panel1"
+               filmstripImage="{PROJECT_FOLDER}yellow 128 knob.png" numStrips="128"
+               width="82" height="82" processorId="Waveform Generator1" parameterId="OctaveTranspose2"
+               min="-5" max="5" stepSize="1" middlePosition="0" showValuePopup="Below"/>
+    <Component type="ScriptSlider" id="Knob14" x="20" y="281" parentComponent="Panel1"
+               filmstripImage="{PROJECT_FOLDER}yellow 128 knob.png" numStrips="128"
+               width="97" height="90" processorId="Waveform Generator1" parameterId="OctaveTranspose1"
+               min="-5" max="5" stepSize="1" showValuePopup="Below" middlePosition="0"/>
+    <Component type="ScriptSlider" id="Knob15" x="410" y="370" parentComponent="Panel1"
+               filmstripImage="{PROJECT_FOLDER}yellow 128 knob.png" numStrips="128"
+               width="69" height="60" stepSize="1" middlePosition="0" mode="Pan"
+               min="-100" max="100" showValuePopup="Right" processorId="Waveform Generator2"
+               parameterId="Pan1" suffix="L"/>
+    <Component type="ScriptSlider" id="Knob16" x="208" y="371" parentComponent="Panel1"
+               filmstripImage="{PROJECT_FOLDER}yellow 128 knob.png" numStrips="128"
+               width="82" height="82" processorId="Waveform Generator1" parameterId="Pan2"
+               mode="Pan" min="-100" max="100" stepSize="1" suffix="L" middlePosition="0"
+               showValuePopup="Right"/>
+    <Component type="ScriptSlider" id="Knob17" x="20" y="370" parentComponent="Panel1"
+               filmstripImage="{PROJECT_FOLDER}yellow 128 knob.png" numStrips="128"
+               width="97" height="90" processorId="Waveform Generator1" parameterId="Pan1"
+               mode="Pan" min="-100" max="100" stepSize="1" suffix="L" middlePosition="0"
+               showValuePopup="Right"/>
+    <Component type="ScriptPanel" id="Panel11" x="1" y="18" parentComponent="Panel1"
+               width="798" height="10" bgColour="1437248170" itemColour="4286316288"
+               itemColour2="12697278"/>
+    <Component type="ScriptPanel" id="Panel12" x="1" y="7" parentComponent="Panel1"
+               width="798" height="10" bgColour="1437248170" itemColour="4281138944"
+               itemColour2="12697278"/>
+    <Component type="ScriptPanel" id="Panel15" x="1" y="80" parentComponent="Panel1"
+               width="798" height="10" bgColour="1437248170" itemColour="4285202176"
+               itemColour2="12697278"/>
+    <Component type="ScriptPanel" id="Panel16" x="3" y="119" parentComponent="Panel1"
+               width="798" height="10" bgColour="1437248170" itemColour="4285202176"
+               itemColour2="12697278"/>
+    <Component type="ScriptComboBox" id="ComboBox5" x="535" y="46" max="5" width="77"
+               height="33" text="Lfo Shape 2" itemColour="4278190080" items="Sine&#10;Saw &#10;Triang;e&#10;Square&#10;Random&#10;"
+               processorId="LFO Modulator2" parameterId="WaveFormType" parentComponent="Panel1"/>
+    <Component type="ScriptComboBox" id="ComboBox4" x="536" y="9" max="5" width="77"
+               height="33" text="Lfo Shape" itemColour="4278190080" items="Sine&#10;Saw &#10;Triang;e&#10;Square&#10;Random&#10;"
+               processorId="LFO Modulator1" parameterId="WaveFormType" parentComponent="Panel1"/>
+    <Component type="ScriptLabel" id="Label1" x="15" y="69" parentComponent="Panel1"
+               width="448" height="71" fontSize="50" text="IR 102" fontName="Big Caslon"
+               fontStyle="Bold" textColour="4290427578" editable="0"/>
+    <Component type="ScriptSlider" id="Knob20" x="684" y="139" parentComponent="Panel1"
+               filmstripImage="{PROJECT_FOLDER}AudioThing-VinylStrip.png" numStrips="100"
+               width="96" height="122" itemColour="4285779771" itemColour2="4218617600"
+               textColour="4278190080" processorId="LFO Modulator2" parameterId="Frequency"
+               min="0.5" max="40" mode="Frequency" stepSize="0.1" showValuePopup="Below"/>
+    <Component type="ScriptSlider" id="Knob21" x="294" y="238" parentComponent="Panel1"
+               filmstripImage="{PROJECT_FOLDER}AudioThing-VinylStrip.png" numStrips="100"
+               width="107" height="122" itemColour="4285779771" itemColour2="4218617600"
+               textColour="4278190080" processorId="LFO Modulator1" parameterId="FadeIn"
+               max="3000" mode="Time" showValuePopup="Below"/>
+    <Component type="ScriptSlider" id="Knob22" x="294" y="345" parentComponent="Panel1"
+               filmstripImage="{PROJECT_FOLDER}AudioThing-VinylStrip.png" numStrips="100"
+               width="107" height="122" itemColour="4285779771" itemColour2="4218617600"
+               textColour="4278190080" processorId="LFO Modulator1" parameterId="SmoothingTime"
+               max="1000" mode="Time" showValuePopup="Below" middlePosition="500"/>
+    <Component type="ScriptSlider" id="Knob23" x="294" y="141" parentComponent="Panel1"
+               filmstripImage="{PROJECT_FOLDER}AudioThing-VinylStrip.png" numStrips="100"
+               width="96" height="122" itemColour="4285779771" itemColour2="4218617600"
+               textColour="4278190080" processorId="LFO Modulator1" parameterId="Frequency"
+               min="0.5" max="40" mode="Frequency" stepSize="0.1" showValuePopup="Below"/>
+    <Component type="ScriptSlider" id="Knob24" x="684" y="238" parentComponent="Panel1"
+               filmstripImage="{PROJECT_FOLDER}AudioThing-VinylStrip.png" numStrips="100"
+               width="96" height="122" itemColour="4285779771" itemColour2="4218617600"
+               textColour="4278190080" processorId="LFO Modulator2" parameterId="FadeIn"
+               max="3000" mode="Time" showValuePopup="Below"/>
+    <Component type="ScriptSlider" id="Knob25" x="684" y="345" parentComponent="Panel1"
+               filmstripImage="{PROJECT_FOLDER}AudioThing-VinylStrip.png" numStrips="100"
+               width="96" height="122" itemColour="4285779771" itemColour2="4218617600"
+               textColour="4278190080" max="1000" processorId="LFO Modulator2"
+               parameterId="SmoothingTime"/>
+    <Component type="ScriptImage" id="Image3" x="109" y="126" parentComponent="Panel1"
+               fileName="{PROJECT_FOLDER}2892184-4caf50.png" width="74" height="85"/>
+    <Component type="ScriptImage" id="Image4" x="498" y="124" parentComponent="Panel1"
+               fileName="{PROJECT_FOLDER}2892184-4caf50.png" width="74" height="85"/>
+    <Component type="ScriptLabel" id="Label23" x="417" y="347" parentComponent="Panel1"
+               width="68" height="17" fontSize="17" text="Pan" fontName="Big Caslon"
+               fontStyle="Bold" editable="0" enabled="0" itemColour2="4227858431"
+               itemColour="4294967295" bgColour="4278190080"/>
+    <Component type="ScriptLabel" id="Label25" x="112" y="320" parentComponent="Panel1"
+               width="70" height="17" fontSize="17" text="Legato" fontName="Big Caslon"
+               fontStyle="Bold" editable="0" enabled="0" itemColour2="4227858431"
+               itemColour="4294967295" bgColour="4278190080"/>
+    <Component type="ScriptLabel" id="Label26" x="114" y="412" parentComponent="Panel1"
+               width="70" height="17" fontSize="17" text="Loop" fontName="Big Caslon"
+               fontStyle="Bold" editable="0" enabled="0" itemColour2="4227858431"
+               itemColour="4294967295" bgColour="4278190080"/>
+    <Component type="ScriptLabel" id="Label27" x="505" y="225" parentComponent="Panel1"
+               width="70" height="17" fontSize="17" text="Sync" fontName="Big Caslon"
+               fontStyle="Bold" editable="0" enabled="0" itemColour2="4227858431"
+               itemColour="4294967295" bgColour="4278190080"/>
+    <Component type="ScriptLabel" id="Label28" x="503" y="317" parentComponent="Panel1"
+               width="70" height="17" fontSize="17" text="Legato" fontName="Big Caslon"
+               fontStyle="Bold" editable="0" enabled="0" itemColour2="4227858431"
+               itemColour="4294967295" bgColour="4278190080"/>
+    <Component type="ScriptLabel" id="Label29" x="506" y="410" parentComponent="Panel1"
+               width="70" height="17" fontSize="17" text="Loop" fontName="Big Caslon"
+               fontStyle="Bold" editable="0" enabled="0" itemColour2="4227858431"
+               itemColour="4294967295" bgColour="4278190080"/>
+    <Component type="ScriptTable" id="Table1" x="188" y="13" width="97" height="28"
+               processorId="Table Envelope1" bgColour="4294967295" itemColour="4294901760"
+               parentComponent="Panel1"/>
+    <Component type="ScriptTable" id="Table2" x="188" y="51" width="97" height="28"
+               processorId="Table Envelope2" bgColour="4281256988" itemColour="4288610048"
+               itemColour2="4218617600" parentComponent="Panel1"/>
+    <Component type="ScriptLabel" id="Label30" x="249" y="121" parentComponent="Panel1"
+               text="LFO" fontName="Bradley Hand" fontSize="22" enabled="0"/>
+    <Component type="ScriptLabel" id="Label31" x="640" y="122" parentComponent="Panel1"
+               text="LFO" fontName="Bradley Hand" fontSize="22" enabled="0"/>
+    <Component type="ScriptLabel" id="Label34" x="309" y="230" parentComponent="Panel1"
+               width="65" height="16" fontSize="17" text="Fade" fontName="Big Caslon"
+               fontStyle="Bold" editable="0" enabled="0" itemColour2="4227858431"
+               itemColour="4294967295" bgColour="4278190080"/>
+    <Component type="ScriptLabel" id="Label35" x="308" y="329" parentComponent="Panel1"
+               width="65" height="16" fontSize="17" text="Smoothing" fontName="Big Caslon"
+               fontStyle="Bold" editable="0" enabled="0" itemColour2="4227858431"
+               itemColour="4294967295" bgColour="4278190080"/>
+    <Component type="ScriptLabel" id="Label36" x="699" y="229" parentComponent="Panel1"
+               width="65" height="16" fontSize="17" text="Fade" fontName="Big Caslon"
+               fontStyle="Bold" editable="0" enabled="0" itemColour2="4227858431"
+               itemColour="4294967295" bgColour="4278190080"/>
+    <Component type="ScriptLabel" id="Label37" x="700" y="330" parentComponent="Panel1"
+               width="65" height="16" fontSize="17" text="Smoothing" fontName="Big Caslon"
+               fontStyle="Bold" editable="0" enabled="0" itemColour2="4227858431"
+               itemColour="4294967295" bgColour="4278190080"/>
+    <Component type="ScriptButton" id="Button9" x="0" y="21" filmstripImage="{PROJECT_FOLDER}switch_metal.png"
+               width="51" height="62" parentComponent="Panel1" processorId="Waveform Generator1"
+               parameterId="Enabled"/>
+    <Component type="ScriptButton" id="Button11" x="0" y="71" filmstripImage="{PROJECT_FOLDER}switch_metal.png"
+               width="51" height="62" parentComponent="Panel1" processorId="Waveform Generator1"
+               parameterId="EnableSecondOscillator"/>
+    <Component type="ScriptButton" id="Button12" x="725" y="74" filmstripImage="{PROJECT_FOLDER}switch_metal.png"
+               width="51" height="62" parentComponent="Panel1" processorId="Waveform Generator2"
+               parameterId="EnableSecondOscillator"/>
+    <Component type="ScriptButton" id="Button13" x="725" y="21" filmstripImage="{PROJECT_FOLDER}switch_metal.png"
+               width="51" height="62" parentComponent="Panel1" processorId="Waveform Generator2"
+               parameterId="Enabled"/>
+    <Component type="ScriptSlider" id="Knob54" x="421" y="3" parentComponent="Panel1"
+               width="119" height="28" filmstripImage="/Users/jasonmorley/Desktop/Knobs and more/H--Green-Red_Pan_LED_01.png"
+               numStrips="31" processorId="Table Envelope1" parameterId="Release"
+               min="1" max="20000" mode="Time" middlePosition="9999"/>
+    <Component type="ScriptSlider" id="Knob55" x="421" y="23" parentComponent="Panel1"
+               width="119" height="28" filmstripImage="/Users/jasonmorley/Desktop/Knobs and more/H--Green-Red_Pan_LED_01.png"
+               numStrips="31" processorId="Table Envelope2" parameterId="Release"
+               min="1" max="20000" mode="Time"/>
+    <Component type="ScriptSlider" id="Knob56" x="299" y="24" parentComponent="Panel1"
+               width="119" height="28" filmstripImage="/Users/jasonmorley/Desktop/Knobs and more/H--Green-Red_Pan_LED_01.png"
+               numStrips="31" processorId="Table Envelope2" parameterId="Attack"
+               min="1" max="20000" mode="Time" middlePosition="9999"/>
+    <Component type="ScriptSlider" id="Knob57" x="299" y="4" parentComponent="Panel1"
+               width="119" height="28" filmstripImage="/Users/jasonmorley/Desktop/Knobs and more/H--Green-Red_Pan_LED_01.png"
+               numStrips="31" processorId="Table Envelope1" parameterId="Attack"
+               min="1" max="20000" mode="Time" middlePosition="9999"/>
+    <Component type="ScriptLabel" id="Label67" x="241" y="47" parentComponent="Panel1"
+               width="142" height="26" text="Attk." fontName="Big Caslon" fontStyle="Bold"
+               textColour="4290427578" editable="0" fontSize="20"/>
+    <Component type="ScriptButton" id="Button24" x="662" y="121" filmstripImage="{PROJECT_FOLDER}button_on_off.png"
+               width="106" height="65" processorId="LFO Modulator2" parameterId="Enabled"
+               parentComponent="Panel1"/>
+    <Component type="ScriptLabel" id="Label68" x="373" y="46" parentComponent="Panel1"
+               width="142" height="26" text="Release'" fontName="Big Caslon"
+               fontStyle="Bold" textColour="4290427578" editable="0" fontSize="20"/>
+    <Component type="ScriptButton" id="Button16" x="269" y="122" filmstripImage="{PROJECT_FOLDER}button_on_off.png"
+               width="106" height="65" processorId="LFO Modulator1" parameterId="Enabled"
+               parentComponent="Panel1"/>
+    <Component type="ScriptLabel" id="Label74" x="502" y="69" parentComponent="Panel1"
+               width="142" height="26" text="LFO Shape" fontName="Big Caslon"
+               fontStyle="Bold" textColour="4290427578" editable="0" fontSize="14"/>
+  </Component>
+  <Component type="ScriptPanel" id="Panel2" x="5" y="0" width="770" height="445"
+             itemColour="4282795590" itemColour2="4278190080" textColour="4294967295"
+             bgColour="4294967295" visible="0">
+    <Component type="ScriptPanel" id="Panel36" x="315" y="1" parentComponent="Panel2"
+               textColour="4287728523" itemColour2="4287927444" itemColour="4292861919"
+               width="452" height="211"/>
+    <Component type="ScriptComboBox" id="ComboBox2" x="526" y="34" max="6" parentComponent="Panel2"
+               itemColour="4278190080" itemColour2="4214370866" textColour="4294923085"
+               bgColour="1435369216" width="142" height="42" processorId="Audio Loop Player1"
+               parameterId="SampleStartMod" items="Free Running&#10;1 Beat&#10;2 Beats&#10;1 Bar&#10;2 Bars&#10;4 Bars"/>
+    <Component type="ScriptButton" id="Button7" x="361" y="88" parentComponent="Panel2"
+               filmstripImage="{PROJECT_FOLDER}button_on_off.png" width="67"
+               height="47" processorId="Audio Loop Player1" parameterId="LoopEnabled"/>
+    <Component type="ScriptSlider" id="Knob5" x="319" y="21" filmstripImage="{PROJECT_FOLDER}SimpleFlat100greenw.png"
+               numStrips="100" width="61" height="63" parentComponent="Panel2"
+               processorId="Audio Loop Player1" parameterId="RootNote" showValuePopup="Below"
+               max="127" stepSize="1"/>
+    <Component type="ScriptSlider" id="Knob18" x="379" y="21" filmstripImage="{PROJECT_FOLDER}SimpleFlat100greenw.png"
+               numStrips="100" width="61" height="63" parentComponent="Panel2"
+               processorId="Audio Loop Player1" parameterId="SampleStartMod"
+               max="20000" stepSize="1" middlePosition="10000"/>
+    <Component type="ScriptPanel" id="Panel37" x="316" y="140" parentComponent="Panel2"
+               itemColour2="4284372052" textColour="4279636755" itemColour="4283582279"
+               bgColour="4278190080" width="450" height="69"/>
+    <Component type="ScriptPanel" id="Panel28" x="672" y="119" parentComponent="Panel2"
+               width="10" height="327" itemColour="4285726464" itemColour2="1700331264"/>
+    <Component type="ScriptPanel" id="Panel27" x="750" y="117" parentComponent="Panel2"
+               width="10" height="327" itemColour="4285726464" itemColour2="1700331264"/>
+    <Component type="ScriptPanel" id="Panel25" x="608" y="105" parentComponent="Panel2"
+               width="10" height="338" itemColour="4285726464" itemColour2="1700331264"/>
+    <Component type="ScriptPanel" id="Panel26" x="566" y="104" parentComponent="Panel2"
+               width="10" height="340" itemColour="4285726464" itemColour2="1700331264"/>
+    <Component type="ScriptPanel" id="Panel29" x="530" y="108" parentComponent="Panel2"
+               width="11" height="336" itemColour="4285726464" itemColour2="1700331264"/>
+    <Component type="ScriptPanel" id="Panel40" x="317" y="133" width="454" height="10"
+               textColour="4293449317" itemColour2="4294967295" itemColour="4278588827"
+               bgColour="4294967295" parentComponent="Panel2"/>
+    <Component type="ScriptPanel" id="Panel30" x="6" y="209" parentComponent="Panel2"
+               width="756" height="10" itemColour="4285726464" itemColour2="1700331264"/>
+    <Component type="ScriptPanel" id="Panel31" x="9" y="269" parentComponent="Panel2"
+               width="756" height="10" itemColour="4285726464" itemColour2="1700331264"/>
+    <Component type="ScriptPanel" id="Panel32" x="6" y="241" parentComponent="Panel2"
+               width="756" height="10" itemColour="4285726464" itemColour2="1700331264"/>
+    <Component type="ScriptPanel" id="Panel33" x="13" y="311" parentComponent="Panel2"
+               width="756" height="10" itemColour="4285726464" itemColour2="1700331264"/>
+    <Component type="ScriptPanel" id="Panel34" x="11" y="362" parentComponent="Panel2"
+               width="756" height="10" itemColour="4285726464" itemColour2="1700331264"/>
+    <Component type="ScriptPanel" id="Panel35" x="6" y="407" parentComponent="Panel2"
+               width="756" height="10" itemColour="4285726464" itemColour2="1700331264"/>
+    <Component type="ScriptPanel" id="Panel20" x="360" y="115" parentComponent="Panel2"
+               width="10" height="327" itemColour="4285726464" itemColour2="1700331264"/>
+    <Component type="ScriptPanel" id="Panel21" x="314" y="115" parentComponent="Panel2"
+               width="10" height="327" itemColour="4285726464" itemColour2="1700331264"/>
+    <Component type="ScriptPanel" id="Panel22" x="279" y="117" parentComponent="Panel2"
+               width="10" height="327" itemColour="4285726464" itemColour2="1700331264"/>
+    <Component type="ScriptLabel" id="Label73" x="300" y="190" text="Root Note"
+               fontName="Bradley Hand" fontSize="40" parentComponent="Panel2"
+               enabled="0" width="126" height="22" itemColour2="4221501184"
+               textColour="4294377216"/>
+    <Component type="ScriptLabel" id="Label4" x="516" y="0" text="CHOP/Step"
+               fontName="Bradley Hand" fontSize="32" width="161" height="42"
+               parentComponent="Panel2" enabled="0" textColour="4278190080"/>
+    <Component type="ScriptPanel" id="Panel23" x="499" y="126" parentComponent="Panel2"
+               width="10" height="327" itemColour="4285726464" itemColour2="1700331264"/>
+    <Component type="ScriptPanel" id="Panel24" x="421" y="131" parentComponent="Panel2"
+               width="10" height="327" itemColour="4285726464" itemColour2="1700331264"/>
+    <Component type="ScriptPanel" id="Panel18" x="232" y="133" parentComponent="Panel2"
+               width="10" height="327" itemColour="4285726464" itemColour2="1700331264"/>
+    <Component type="ScriptLabel" id="Label2" x="384" y="88" text="Revers3"
+               fontName="Bradley Hand" fontSize="20" parentComponent="Panel2"
+               enabled="0" textColour="4278190080"/>
+    <Component type="ScriptPanel" id="Panel19" x="154" y="138" parentComponent="Panel2"
+               width="10" height="327" itemColour="4285726464" itemColour2="1700331264"/>
+    <Component type="ScriptPanel" id="Panel9" x="49" y="116" parentComponent="Panel2"
+               width="10" height="327" itemColour="4285726464" itemColour2="1700331264"/>
+    <Component type="ScriptPanel" id="Panel13" x="12" y="124" parentComponent="Panel2"
+               width="10" height="327" itemColour="4285726464" itemColour2="1700331264"/>
+    <Component type="ScriptLabel" id="Label3" x="331" y="88" text="LooP" fontName="Bradley Hand"
+               fontSize="20" parentComponent="Panel2" enabled="0" bgColour="16777215"
+               textColour="4278190080"/>
+    <Component type="ScriptPanel" id="Panel17" x="90" y="119" parentComponent="Panel2"
+               width="10" height="327" itemColour="4285726464" itemColour2="1700331264"/>
+    <Component type="ScriptLabel" id="Label72" x="433" y="192" text="lOOP MOD"
+               fontName="Bradley Hand" fontSize="37" parentComponent="Panel2"
+               enabled="0" width="126" height="22" itemColour2="4227858431"
+               textColour="4294377216"/>
+    <Component type="ScriptImage" id="Image5" x="-5" y="1" parentComponent="Panel2"
+               fileName="{PROJECT_FOLDER}2892184-4caf50.png" width="289" height="279"/>
+    <Component type="ScriptAudioWaveform" id="AudioWaveform2" x="5" y="7" parentComponent="Panel2"
+               width="309" height="203" itemColour="4294901760" bgColour="1862270976"
+               itemColour2="2600468480" textColour="1107296255" opaque="0" processorId="Audio Loop Player1"
+               showLines="1"/>
+    <Component type="ScriptButton" id="Button10" x="415" y="87" parentComponent="Panel2"
+               filmstripImage="{PROJECT_FOLDER}button_on_off.png" width="67"
+               height="47" processorId="Audio Loop Player1" parameterId="Reversed"/>
+    <Component type="ScriptLabel" id="Label5" x="369" y="0" text="LOOP MOD"
+               fontName="Bradley Hand" fontSize="20" parentComponent="Panel2"
+               enabled="0" width="126" height="22" textColour="4278190080"/>
+    <Component type="ScriptLabel" id="Label6" x="285" y="0" text="Root Note"
+               fontName="Bradley Hand" fontSize="20" parentComponent="Panel2"
+               enabled="0" width="126" height="22" textColour="4278584838"/>
+    <Component type="ScriptButton" id="Button8" x="309" y="88" parentComponent="Panel2"
+               filmstripImage="{PROJECT_FOLDER}button_on_off.png" width="67"
+               height="47" processorId="Audio Loop Player1" parameterId="PitchTracking"/>
+    <Component type="ScriptLabel" id="Label7" x="275" y="88" text="Pitch" fontName="Bradley Hand"
+               fontSize="20" parentComponent="Panel2" enabled="0" bgColour="16777215"
+               textColour="4278190080"/>
+    <Component type="ScriptPanel" id="Panel38" x="3" y="401" parentComponent="Panel2"
+               textColour="4294967295" itemColour2="4293263104" itemColour="4281246546"
+               width="764" height="42"/>
+    <Component type="ScriptAudioWaveform" id="AudioWaveform3" x="5" y="214"
+               parentComponent="Panel2" width="309" height="186" itemColour="4292673280"
+               bgColour="1862270976" itemColour2="2600468480" textColour="1107296255"
+               opaque="0" processorId="Audio Loop Player2" showLines="1"/>
+    <Component type="ScriptSlider" id="Knob36" x="368" y="206" filmstripImage="{PROJECT_FOLDER}Modern-minimal-mars.png"
+               numStrips="100" width="130" height="87" parentComponent="Panel2"
+               processorId="Audio Loop Player2" parameterId="SampleStartMod"
+               max="20000" stepSize="1" middlePosition="10000" text="*">
+      <Component type="ScriptButton" id="Button15" x="-69" y="-54" parentComponent="Knob36"
+                 width="128" height="28"/>
+    </Component>
+    <Component type="ScriptButton" id="Button21" x="420" y="289" parentComponent="Panel2"
+               filmstripImage="{PROJECT_FOLDER}button_on_off.png" width="67"
+               height="47" processorId="Audio Loop Player2" parameterId="Reversed"
+               text="*"/>
+    <Component type="ScriptLabel" id="Label69" x="337" y="289" text="Loop" fontName="Bradley Hand"
+               fontSize="20" parentComponent="Panel2" enabled="0" bgColour="16777215"/>
+    <Component type="ScriptButton" id="Button22" x="367" y="289" parentComponent="Panel2"
+               filmstripImage="{PROJECT_FOLDER}button_on_off.png" width="67"
+               height="47" processorId="Audio Loop Player2" parameterId="LoopEnabled"
+               text="*"/>
+    <Component type="ScriptSlider" id="Knob52" x="297" y="205" filmstripImage="{PROJECT_FOLDER}Modern-minimal-mars.png"
+               numStrips="100" width="90" height="90" parentComponent="Panel2"
+               processorId="Audio Loop Player2" parameterId="RootNote" showValuePopup="Below"
+               max="127" stepSize="1" text="*"/>
+    <Component type="ScriptLabel" id="Label70" x="389" y="288" text="Reverse"
+               fontName="Bradley Hand" fontSize="20" parentComponent="Panel2"
+               enabled="0" bgColour="16777215"/>
+    <Component type="ScriptButton" id="Button23" x="317" y="290" parentComponent="Panel2"
+               filmstripImage="{PROJECT_FOLDER}button_on_off.png" width="67"
+               height="47" processorId="Audio Loop Player2" parameterId="PitchTracking"/>
+    <Component type="ScriptLabel" id="Label71" x="280" y="288" text="Pitch"
+               fontName="Bradley Hand" fontSize="20" parentComponent="Panel2"
+               enabled="0" bgColour="16777215"/>
+    <Component type="ScriptComboBox" id="ComboBox3" x="534" y="272" max="6"
+               parentComponent="Panel2" itemColour="4278190080" itemColour2="4214370866"
+               textColour="4294967117" bgColour="1435369216" width="142" height="42"
+               processorId="Audio Loop Player2" parameterId="SampleStartMod"
+               items="Free Running&#10;1 Beat&#10;2 Beats&#10;1 Bar&#10;2 Bars&#10;4 Bars"/>
+  </Component>
+  <Component type="ScriptPanel" id="Panel3" x="1" y="0" width="779" height="448"
+             itemColour="4278190080" itemColour2="4294836221" textColour="4294967295">
+    <Component type="ScriptFloatingTile" id="FloatingTile2" x="501" y="2" ContentType="MPEPanel"
+               bgColour="4294901760" itemColour="4294443008" itemColour2="4294901760"
+               Data="{&#13;&#10;}" width="157" height="22" textColour="4294901760"
+               itemColour3="4294901760" parentComponent="Panel3"/>
+    <Component type="ScriptLabel" id="Label45" x="264" y="1" text="FX" fontName="Chalkduster"
+               width="231" height="90" fontSize="69" parentComponent="Panel3"/>
+    <Component type="ScriptButton" id="Button14" x="122" y="4" width="63" height="61"
+               text="SYNC" parentComponent="Panel3" itemColour="4278782217"
+               bgColour="905969663" itemColour2="822083583" processorId="Delay1"
+               parameterId="TempoSync"/>
+    <Component type="ScriptSlider" id="Knob19" x="5" y="61" filmstripImage="{PROJECT_FOLDER}SimpleFlat100greenw.png"
+               itemColour2="4217265758" numStrips="100" width="80" height="138"
+               parentComponent="Panel3" processorId="Delay1" parameterId="DelayTimeLeft"
+               mode="TempoSync" max="18" stepSize="1" middlePosition="9" showValuePopup="Above"/>
+    <Component type="ScriptSlider" id="Knob26" x="63" y="61" filmstripImage="{PROJECT_FOLDER}SimpleFlat100greenw.png"
+               itemColour2="4217265758" numStrips="100" width="80" height="138"
+               parentComponent="Panel3" processorId="Delay1" parameterId="DelayTimeRight"
+               mode="TempoSync" max="18" stepSize="1" middlePosition="9" showValuePopup="Above"/>
+    <Component type="ScriptSlider" id="Knob27" x="5" y="139" filmstripImage="{PROJECT_FOLDER}SimpleFlat100greenw.png"
+               itemColour2="4217265758" numStrips="100" width="80" height="138"
+               parentComponent="Panel3" processorId="Delay1" parameterId="FeedbackLeft"
+               mode="NormalizedPercentage" suffix="%" middlePosition="0.5" showValuePopup="Above"/>
+    <Component type="ScriptSlider" id="Knob28" x="65" y="139" filmstripImage="{PROJECT_FOLDER}SimpleFlat100greenw.png"
+               itemColour2="4217265758" numStrips="100" width="80" height="138"
+               parentComponent="Panel3" processorId="Delay1" parameterId="FeedbackRight"
+               mode="NormalizedPercentage" suffix="%" middlePosition="0.5" showValuePopup="Above"/>
+    <Component type="ScriptPanel" id="Panel39" x="385" y="364" itemColour="4278190080"
+               width="10" height="80" parentComponent="Panel3"/>
+    <Component type="ScriptLabel" id="Label38" x="2" y="15" text="DELAY" fontName="Bradley Hand"
+               fontSize="39" editable="0" parentComponent="Panel3"/>
+    <Component type="ScriptLabel" id="Label39" x="0" y="33" text="L          R"
+               fontName="Bradley Hand" fontSize="39" editable="0" parentComponent="Panel3"/>
+    <Component type="ScriptLabel" id="Label40" x="-1" y="118" text="FEED BACK"
+               fontName="Bradley Hand" editable="0" parentComponent="Panel3"
+               width="134" height="25" fontSize="30"/>
+    <Component type="ScriptImage" id="Image2" x="151" y="1" parentComponent="Panel3"
+               fileName="{PROJECT_FOLDER}2892184-4caf50.png" width="464" height="444"/>
+    <Component type="ScriptSlider" id="Knob29" x="125" y="139" filmstripImage="{PROJECT_FOLDER}SimpleFlat100greenw.png"
+               itemColour2="4217265758" numStrips="100" width="86" height="74"
+               parentComponent="Panel3" processorId="Delay1" parameterId="Mix"
+               mode="NormalizedPercentage" suffix="%" middlePosition="0.5" showValuePopup="Above"
+               defaultValue="0.5"/>
+    <Component type="ScriptLabel" id="Label41" x="103" y="118" text="MIX" fontName="Bradley Hand"
+               editable="0" parentComponent="Panel3" width="113" height="25"
+               fontSize="30"/>
+    <Component type="ScriptLabel" id="Label42" x="647" y="46" text="SIZE" fontName="Bradley Hand"
+               editable="0" parentComponent="Panel3" width="76" height="22"
+               fontSize="30"/>
+    <Component type="ScriptSlider" id="Knob30" x="715" y="64" filmstripImage="{PROJECT_FOLDER}SimpleFlat100greenw.png"
+               itemColour2="4217265758" numStrips="100" width="64" height="62"
+               parentComponent="Panel3" text="*" processorId="Simple Reverb1"
+               parameterId="WetLevel" mode="NormalizedPercentage" suffix="%"
+               middlePosition="0.5" showValuePopup="Above"/>
+    <Component type="ScriptSlider" id="Knob31" x="657" y="64" filmstripImage="{PROJECT_FOLDER}SimpleFlat100greenw.png"
+               itemColour2="4217265758" numStrips="100" width="79" height="62"
+               parentComponent="Panel3" text="*" processorId="Simple Reverb1"
+               parameterId="RoomSize" mode="NormalizedPercentage" suffix="%"
+               middlePosition="0.5" showValuePopup="Above"/>
+    <Component type="ScriptLabel" id="Label43" x="652" y="11" text="REVERB"
+               fontName="Bradley Hand" editable="0" parentComponent="Panel3"
+               width="127" height="39" fontSize="39"/>
+    <Component type="ScriptLabel" id="Label44" x="717" y="44" text="WET" fontName="Bradley Hand"
+               editable="0" parentComponent="Panel3" width="62" height="27"
+               fontSize="30"/>
+    <Component type="ScriptSlider" id="Knob32" x="657" y="141" filmstripImage="{PROJECT_FOLDER}SimpleFlat100greenw.png"
+               itemColour2="4217265758" numStrips="100" width="79" height="62"
+               parentComponent="Panel3" text="*" processorId="Simple Reverb1"
+               parameterId="Width" mode="NormalizedPercentage" suffix="%" middlePosition="0.5"
+               showValuePopup="Above"/>
+    <Component type="ScriptSlider" id="Knob33" x="715" y="141" filmstripImage="{PROJECT_FOLDER}SimpleFlat100greenw.png"
+               itemColour2="4217265758" numStrips="100" width="64" height="62"
+               parentComponent="Panel3" text="*" processorId="Simple Reverb1"
+               parameterId="Damping" mode="NormalizedPercentage" suffix="%"
+               middlePosition="0.5" showValuePopup="Above"/>
+    <Component type="ScriptLabel" id="Label47" x="633" y="121" text="Spread"
+               fontName="Bradley Hand" editable="0" parentComponent="Panel3"
+               width="73" height="23" fontSize="31"/>
+    <Component type="ScriptLabel" id="Label48" x="706" y="121" text="Damp" fontName="Bradley Hand"
+               editable="0" parentComponent="Panel3" width="73" height="23"
+               fontSize="31"/>
+    <Component type="ScriptSlider" id="Knob39" x="484" y="355" filmstripImage="{PROJECT_FOLDER}Modern-minimal-mars.png"
+               itemColour2="4217265758" numStrips="127" width="115" height="117"
+               parentComponent="Panel3" processorId="Phase FX1" parameterId="Frequency2"
+               mode="Frequency" min="20" max="20000" stepSize="1" suffix=" Hz"
+               middlePosition="1500" showValuePopup="Above"/>
+    <Component type="ScriptSlider" id="Knob40" x="583" y="355" filmstripImage="{PROJECT_FOLDER}Modern-minimal-mars.png"
+               itemColour2="4217265758" numStrips="127" width="115" height="117"
+               parentComponent="Panel3" processorId="Phase FX1" parameterId="Feedback"/>
+    <Component type="ScriptSlider" id="Knob41" x="387" y="355" filmstripImage="{PROJECT_FOLDER}Modern-minimal-mars.png"
+               itemColour2="4217265758" numStrips="127" width="115" height="117"
+               parentComponent="Panel3" processorId="Phase FX1" parameterId="Frequency1"
+               mode="Frequency" min="20" max="20000" stepSize="1" suffix=" Hz"
+               middlePosition="1500" showValuePopup="Above"/>
+    <Component type="ScriptSlider" id="Knob42" x="290" y="355" filmstripImage="{PROJECT_FOLDER}Modern-minimal-mars.png"
+               itemColour2="4217265758" numStrips="127" width="115" height="117"
+               parentComponent="Panel3" processorId="Chorus1" parameterId="Delay"
+               middlePosition="0.5" showValuePopup="Above"/>
+    <Component type="ScriptSlider" id="Knob43" x="193" y="355" filmstripImage="{PROJECT_FOLDER}Modern-minimal-mars.png"
+               itemColour2="4217265758" numStrips="127" width="115" height="117"
+               parentComponent="Panel3" mode="NormalizedPercentage" suffix="%"
+               middlePosition="0.5" processorId="Chorus1" parameterId="Feedback"/>
+    <Component type="ScriptButton" id="Button25" x="207" y="316" filmstripImage="{PROJECT_FOLDER}switch_metal.png"
+               width="116" height="52" processorId="Chorus1" parameterId="Enabled"
+               parentComponent="Panel3"/>
+    <Component type="ScriptLabel" id="Label76" x="108" y="361" text="Width"
+               fontName="Bradley Hand" editable="0" parentComponent="Panel3"
+               width="72" height="16" fontSize="30" textColour="4278190080"/>
+    <Component type="ScriptSlider" id="Knob44" x="96" y="355" filmstripImage="{PROJECT_FOLDER}Modern-minimal-mars.png"
+               itemColour2="4217265758" numStrips="127" width="115" height="117"
+               parentComponent="Panel3" processorId="Chorus1" parameterId="Width"
+               mode="NormalizedPercentage" suffix="%" middlePosition="0.5" showValuePopup="Above"/>
+    <Component type="ScriptSlider" id="Knob46" x="-1" y="356" filmstripImage="{PROJECT_FOLDER}Modern-minimal-mars.png"
+               itemColour2="4217265758" numStrips="127" width="115" height="117"
+               parentComponent="Panel3" processorId="Chorus1" parameterId="Rate"
+               mode="NormalizedPercentage" suffix="%" middlePosition="0.5" showValuePopup="Above"/>
+    <Component type="ScriptImage" id="Image6" x="656" y="203" parentComponent="Panel3"
+               fileName="{PROJECT_FOLDER}IMG_0498 2.jpg" width="119" height="74"/>
+    <Component type="ScriptSlider" id="Knob45" x="683" y="356" filmstripImage="{PROJECT_FOLDER}Modern-minimal-mars.png"
+               itemColour2="4217265758" numStrips="127" width="96" height="84"
+               parentComponent="Panel3" processorId="Phase FX1" parameterId="Mix"
+               mode="NormalizedPercentage" suffix="%" middlePosition="0.5" showValuePopup="Above"/>
+    <Component type="ScriptLabel" id="Label46" x="214" y="322" text="CHORUS"
+               fontName="Chalkduster" fontSize="36" editable="0" parentComponent="Panel3"
+               width="197" height="46" textColour="4278255873"/>
+    <Component type="ScriptLabel" id="Label49" x="360" y="319" text="PHAZE"
+               fontName="Chalkduster" fontSize="36" editable="0" parentComponent="Panel3"
+               width="197" height="46" textColour="4278255873"/>
+    <Component type="ScriptLabel" id="Label50" x="533" y="175" text="" fontName="Bradley Hand"
+               editable="0" parentComponent="Panel3" width="127" height="39"
+               fontSize="39" textColour="4278190080"/>
+    <Component type="ScriptButton" id="Button26" x="360" y="316" filmstripImage="{PROJECT_FOLDER}switch_metal.png"
+               width="116" height="52" processorId="Phase FX1" parameterId="Enabled"
+               parentComponent="Panel3"/>
+    <Component type="ScriptButton" id="Button17" x="601" y="64" width="57" height="62"
+               text="On" parentComponent="Panel3" processorId="Simple Reverb1"
+               parameterId="Enabled"/>
+    <Component type="ScriptButton" id="Button18" x="123" y="62" width="62" height="61"
+               text="On" parentComponent="Panel3" processorId="Delay1" parameterId="Enabled"/>
+    <Component type="ScriptButton" id="Button19" x="4" y="226" width="55" height="63"
+               text="On" parentComponent="Panel3" processorId="Saturator1" parameterId="Enabled"/>
+    <Component type="ScriptLabel" id="Label53" x="177" y="226" text="" fontName="Bradley Hand"
+               editable="0" parentComponent="Panel3" width="73" height="23"
+               fontSize="31"/>
+    <Component type="ScriptSlider" id="Knob48" x="58" y="227" filmstripImage="{PROJECT_FOLDER}SimpleFlat100greenw.png"
+               itemColour2="4217265758" numStrips="100" width="79" height="62"
+               parentComponent="Panel3" text="*" processorId="Saturator1" parameterId="PreGain"
+               max="24" mode="Decibel" stepSize="1" showValuePopup="Above" middlePosition="12"/>
+    <Component type="ScriptSlider" id="Knob49" x="118" y="227" filmstripImage="{PROJECT_FOLDER}SimpleFlat100greenw.png"
+               itemColour2="4217265758" numStrips="100" width="79" height="62"
+               parentComponent="Panel3" text="*" processorId="Saturator1" parameterId="Saturation"
+               mode="NormalizedPercentage" showValuePopup="Above" middlePosition="0.5"
+               suffix="%"/>
+    <Component type="ScriptLabel" id="Label54" x="112" y="225" text="" fontName="Bradley Hand"
+               editable="0" parentComponent="Panel3" width="73" height="23"
+               fontSize="31"/>
+    <Component type="ScriptSlider" id="Knob50" x="4" y="302" filmstripImage="{PROJECT_FOLDER}SimpleFlat100greenw.png"
+               itemColour2="4217265758" numStrips="100" width="79" height="62"
+               parentComponent="Panel3" text="*" processorId="Saturator1" parameterId="WetAmount"
+               mode="NormalizedPercentage" suffix="%" middlePosition="0.5" showValuePopup="Above"/>
+    <Component type="ScriptSlider" id="Knob51" x="64" y="302" filmstripImage="{PROJECT_FOLDER}SimpleFlat100greenw.png"
+               itemColour2="4217265758" numStrips="100" width="79" height="62"
+               parentComponent="Panel3" text="*" processorId="Saturator1" parameterId="PostGain"
+               min="-24" max="0" mode="Decibel" stepSize="1" middlePosition="-12"
+               showValuePopup="Above"/>
+    <Component type="ScriptLabel" id="Label55" x="85" y="202" text="" fontName="Bradley Hand"
+               editable="0" parentComponent="Panel3" width="113" height="25"
+               fontSize="30"/>
+    <Component type="ScriptLabel" id="Label62" x="-1" y="206" text="Saturation"
+               fontName="Chalkduster" editable="0" parentComponent="Panel3"
+               width="88" height="21" textColour="4278190080" fontSize="18"/>
+    <Component type="ScriptLabel" id="Label63" x="72" y="202" text="Pre" fontName="Bradley Hand"
+               editable="0" parentComponent="Panel3" width="72" height="25"
+               fontSize="30"/>
+    <Component type="ScriptLabel" id="Label64" x="124" y="202" text="Sat" fontName="Bradley Hand"
+               editable="0" parentComponent="Panel3" width="72" height="25"
+               fontSize="30"/>
+    <Component type="ScriptLabel" id="Label65" x="62" y="285" text="Post" fontName="Bradley Hand"
+               editable="0" parentComponent="Panel3" width="86" height="23"
+               fontSize="30"/>
+    <Component type="ScriptLabel" id="Label66" x="-1" y="288" text="Wet" fontName="Bradley Hand"
+               editable="0" parentComponent="Panel3" width="72" height="16"
+               fontSize="30"/>
+    <Component type="ScriptButton" id="Button20" x="122" y="301" width="101"
+               height="63" text="Limiter" parentComponent="Panel3" processorId="Limiter1"
+               parameterId="Enabled"/>
+    <Component type="ScriptLabel" id="Label75" x="10" y="361" text="Rate" fontName="Bradley Hand"
+               editable="0" parentComponent="Panel3" width="72" height="16"
+               fontSize="30" textColour="4278190080"/>
+    <Component type="ScriptLabel" id="Label77" x="204" y="361" text="FD. BK"
+               fontName="Bradley Hand" editable="0" parentComponent="Panel3"
+               width="72" height="16" fontSize="30" textColour="4278190080"/>
+    <Component type="ScriptLabel" id="Label78" x="299" y="360" text="Delay"
+               fontName="Bradley Hand" editable="0" parentComponent="Panel3"
+               width="72" height="16" fontSize="30" textColour="4278190080"/>
+    <Component type="ScriptLabel" id="Label79" x="400" y="358" text="Freq 1"
+               fontName="Bradley Hand" editable="0" parentComponent="Panel3"
+               width="72" height="16" fontSize="30" textColour="4278190080"/>
+    <Component type="ScriptLabel" id="Label80" x="494" y="358" text="Freq 2"
+               fontName="Bradley Hand" editable="0" parentComponent="Panel3"
+               width="72" height="16" fontSize="30" textColour="4278190080"/>
+    <Component type="ScriptLabel" id="Label81" x="595" y="359" text="FD. BK."
+               fontName="Bradley Hand" editable="0" parentComponent="Panel3"
+               width="72" height="16" fontSize="30" textColour="4278190080"/>
+    <Component type="ScriptLabel" id="Label82" x="696" y="359" text="MIX" fontName="Bradley Hand"
+               editable="0" parentComponent="Panel3" width="72" height="16"
+               fontSize="30" textColour="4278190080"/>
+    <Component type="ScriptSlider" id="Knob34" x="715" y="297" filmstripImage="{PROJECT_FOLDER}SimpleFlat100greenw.png"
+               itemColour2="4217265758" numStrips="100" width="64" height="62"
+               parentComponent="Panel3" text="*" processorId="Shape FX1" parameterId="HighPass"
+               mode="Frequency" suffix=" Hz" middlePosition="1500" showValuePopup="Above"
+               min="20" max="20000" stepSize="1"/>
+    <Component type="ScriptSlider" id="Knob35" x="658" y="297" filmstripImage="{PROJECT_FOLDER}SimpleFlat100greenw.png"
+               itemColour2="4217265758" numStrips="100" width="79" height="62"
+               parentComponent="Panel3" text="*" processorId="Shape FX1" parameterId="LowPass"
+               mode="Frequency" suffix=" Hz" middlePosition="1500" showValuePopup="Above"
+               min="20" max="20000" stepSize="1" defaultValue="20000" showTextBox="0"/>
+    <Component type="ScriptLabel" id="Label51" x="635" y="278" text="" fontName="Bradley Hand"
+               editable="0" parentComponent="Panel3" width="73" height="23"
+               fontSize="31"/>
+    <Component type="ScriptLabel" id="Label52" x="706" y="279" text="" fontName="Bradley Hand"
+               editable="0" parentComponent="Panel3" width="73" height="23"
+               fontSize="31"/>
+    <Component type="ScriptLabel" id="Label56" x="639" y="278" text="" fontName="Bradley Hand"
+               editable="0" parentComponent="Panel3" width="73" height="23"
+               fontSize="31"/>
+    <Component type="ScriptLabel" id="Label57" x="706" y="279" text="" fontName="Bradley Hand"
+               editable="0" parentComponent="Panel3" width="73" height="23"
+               fontSize="31"/>
+    <Component type="ScriptLabel" id="Label58" x="635" y="276" text="lo Pass"
+               fontName="Bradley Hand" editable="0" parentComponent="Panel3"
+               width="73" height="23" fontSize="31"/>
+    <Component type="ScriptLabel" id="Label59" x="706" y="276" text="Hi Pass"
+               fontName="Bradley Hand" editable="0" parentComponent="Panel3"
+               width="73" height="23" fontSize="31" isMetaParameter="1"/>
+  </Component>
+  <Component type="ScriptComboBox" id="ComboBox1" x="-7" y="644" max="3" items="SYNTH&#10;SAMPLER&#10;FX"
+             width="790" height="56" bgColour="3657433088" itemColour2="4211081216"
+             itemColour="4294967295" textColour="4278190080"/>
+  <Component type="ScriptFloatingTile" id="FloatingTile1" x="2" y="444" ContentType="PresetBrowser"
+             bgColour="4160749568" itemColour="4294967295" itemColour2="4294951115"
+             Data="{&#13;&#10;  &quot;ShowSaveButton&quot;: true,&#13;&#10;  &quot;ShowFolderButton&quot;: true,&#13;&#10;  &quot;ShowNotes&quot;: true,&#13;&#10;  &quot;ShowEditButtons&quot;: true,&#13;&#10;  &quot;ShowFavoriteIcon&quot;: true,&#13;&#10;  &quot;NumColumns&quot;: 3&#13;&#10;}"
+             width="784" height="197" itemColour3="4294967295" textColour="4294901760"/>
+  <Component type="ScriptFloatingTile" id="FloatingTile3" x="37" y="699" width="742"
+             height="74" ContentType="Keyboard" bgColour="4284769380" itemColour="436207615"
+             itemColour2="4294967295" textColour="4294951115" Data="{&#13;&#10;  &quot;KeyWidth&quot;: 14,&#13;&#10;  &quot;DisplayOctaveNumber&quot;: false,&#13;&#10;  &quot;LowKey&quot;: 9,&#13;&#10;  &quot;HiKey&quot;: 127,&#13;&#10;  &quot;CustomGraphics&quot;: false,&#13;&#10;  &quot;DefaultAppearance&quot;: true,&#13;&#10;  &quot;BlackKeyRatio&quot;: 0.69999999,&#13;&#10;  &quot;ToggleMode&quot;: false,&#13;&#10;  &quot;MidiChannel&quot;: 1,&#13;&#10;  &quot;UseVectorGraphics&quot;: false,&#13;&#10;  &quot;UseFlatStyle&quot;: false,&#13;&#10;  &quot;MPEKeyboard&quot;: false,&#13;&#10;  &quot;MPEStartChannel&quot;: 2,&#13;&#10;  &quot;MPEEndChannel&quot;: 16&#13;&#10;}"/>
+</ContentProperties>

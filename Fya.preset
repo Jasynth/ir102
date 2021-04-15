@@ -1,0 +1,183 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<Preset Version="1.0.0">
+  <Content Processor="Interface">
+    <Control type="ScriptPanel" id="Panel1" value="0"/>
+    <Control type="ScriptButton" id="Button2" value="0"/>
+    <Control type="ScriptButton" id="Button3" value="0"/>
+    <Control type="ScriptButton" id="Button4" value="1"/>
+    <Control type="ScriptButton" id="Button5" value="1"/>
+    <Control type="ScriptButton" id="Button6" value="1"/>
+    <Control type="ScriptButton" id="Button1" value="1"/>
+    <Control type="ScriptLabel" id="Label33" value="Frequency"/>
+    <Control type="ScriptLabel" id="Label32" value="Frequency"/>
+    <Control type="ScriptLabel" id="Label24" value="Sync"/>
+    <Control type="ScriptLabel" id="Label18" value="Pan"/>
+    <Control type="ScriptLabel" id="Label19" value="Octave"/>
+    <Control type="ScriptLabel" id="Label20" value="Pulse"/>
+    <Control type="ScriptLabel" id="Label21" value="Pulse"/>
+    <Control type="ScriptLabel" id="Label22" value="Octave"/>
+    <Control type="ScriptLabel" id="Label14" value="Pan"/>
+    <Control type="ScriptLabel" id="Label16" value="Pulse"/>
+    <Control type="ScriptLabel" id="Label17" value="Pan"/>
+    <Control type="ScriptLabel" id="Label15" value="Octave"/>
+    <Control type="ScriptLabel" id="Label13" value="Detune"/>
+    <Control type="ScriptLabel" id="Label12" value="Detune"/>
+    <Control type="ScriptLabel" id="Label11" value="Detune"/>
+    <Control type="ScriptLabel" id="Label10" value="Detune"/>
+    <Control type="ScriptLabel" id="Label8" value="Octave"/>
+    <Control type="ScriptLabel" id="Label9" value="Pulse"/>
+    <Control type="ScriptSlider" id="Knob1" value="0.55000001"/>
+    <Control type="ScriptSlider" id="Knob2" value="0.43000001"/>
+    <Control type="ScriptSlider" id="Knob3" value="0.54000002"/>
+    <Control type="ScriptSlider" id="Knob4" value="5"/>
+    <Control type="ScriptSlider" id="Knob6" value="0"/>
+    <Control type="ScriptSlider" id="Knob7" value="0.57999998"/>
+    <Control type="ScriptSlider" id="Knob8" value="38.23"/>
+    <Control type="ScriptComboBox" id="ComboBox6" value="8"/>
+    <Control type="ScriptComboBox" id="ComboBox8" value="7"/>
+    <Control type="ScriptComboBox" id="ComboBox12" value="9"/>
+    <Control type="ScriptComboBox" id="ComboBox13" value="9"/>
+    <Control type="ScriptSlider" id="Knob9" value="52.75"/>
+    <Control type="ScriptSlider" id="Knob10" value="100"/>
+    <Control type="ScriptSlider" id="Knob11" value="-51.299999"/>
+    <Control type="ScriptSlider" id="Knob12" value="5"/>
+    <Control type="ScriptSlider" id="Knob13" value="5"/>
+    <Control type="ScriptSlider" id="Knob14" value="5"/>
+    <Control type="ScriptSlider" id="Knob15" value="0"/>
+    <Control type="ScriptSlider" id="Knob16" value="0"/>
+    <Control type="ScriptSlider" id="Knob17" value="0"/>
+    <Control type="ScriptComboBox" id="ComboBox5" value="1"/>
+    <Control type="ScriptComboBox" id="ComboBox4" value="1"/>
+    <Control type="ScriptLabel" id="Label1" value="IR 102"/>
+    <Control type="ScriptSlider" id="Knob20" value="27"/>
+    <Control type="ScriptSlider" id="Knob21" value="3000"/>
+    <Control type="ScriptSlider" id="Knob22" value="199.39"/>
+    <Control type="ScriptSlider" id="Knob23" value="29.700001"/>
+    <Control type="ScriptSlider" id="Knob24" value="1296.8"/>
+    <Control type="ScriptSlider" id="Knob25" value="436.23999"/>
+    <Control type="ScriptLabel" id="Label23" value="Pan"/>
+    <Control type="ScriptLabel" id="Label25" value="Legato"/>
+    <Control type="ScriptLabel" id="Label26" value="Loop"/>
+    <Control type="ScriptLabel" id="Label27" value="Sync"/>
+    <Control type="ScriptLabel" id="Label28" value="Legato"/>
+    <Control type="ScriptLabel" id="Label29" value="Loop"/>
+    <Control type="ScriptTable" id="Table1" value="0" data="60..........9C...vOyxSh9vsss6C...vOewU+9faaa2C...vOTA9B+....8C...vO...f+......fBetO"/>
+    <Control type="ScriptTable" id="Table2" value="0" data="72...............vOIxzv9baaa7C...vOW8C59HIII7C...vOwU+.+Xaaa6C...vOp.eQ+HIII6C...vO...f+....9C...vO"/>
+    <Control type="ScriptLabel" id="Label30" value="LFO"/>
+    <Control type="ScriptLabel" id="Label31" value="LFO"/>
+    <Control type="ScriptLabel" id="Label34" value="Fade"/>
+    <Control type="ScriptLabel" id="Label35" value="Smoothing"/>
+    <Control type="ScriptLabel" id="Label36" value="Fade"/>
+    <Control type="ScriptLabel" id="Label37" value="Smoothing"/>
+    <Control type="ScriptButton" id="Button9" value="1"/>
+    <Control type="ScriptButton" id="Button11" value="1"/>
+    <Control type="ScriptButton" id="Button12" value="1"/>
+    <Control type="ScriptButton" id="Button13" value="1"/>
+    <Control type="ScriptSlider" id="Knob54" value="1"/>
+    <Control type="ScriptSlider" id="Knob55" value="1"/>
+    <Control type="ScriptSlider" id="Knob56" value="1095.5699"/>
+    <Control type="ScriptSlider" id="Knob57" value="3480.4299"/>
+    <Control type="ScriptLabel" id="Label67" value="Attk."/>
+    <Control type="ScriptButton" id="Button24" value="0"/>
+    <Control type="ScriptLabel" id="Label68" value="Release'"/>
+    <Control type="ScriptButton" id="Button16" value="0"/>
+    <Control type="ScriptLabel" id="Label74" value="LFO Shape"/>
+    <Control type="ScriptComboBox" id="ComboBox2" value="1"/>
+    <Control type="ScriptButton" id="Button7" value="0"/>
+    <Control type="ScriptSlider" id="Knob5" value="36"/>
+    <Control type="ScriptSlider" id="Knob18" value="0"/>
+    <Control type="ScriptLabel" id="Label73" value="Root Note"/>
+    <Control type="ScriptLabel" id="Label4" value="CHOP/Step"/>
+    <Control type="ScriptLabel" id="Label2" value="Revers3"/>
+    <Control type="ScriptLabel" id="Label3" value="LooP"/>
+    <Control type="ScriptLabel" id="Label72" value="lOOP MOD"/>
+    <Control type="ScriptAudioWaveform" id="AudioWaveform2" value="0" rangeStart="0"
+             rangeEnd="0" fileName=""/>
+    <Control type="ScriptButton" id="Button10" value="0"/>
+    <Control type="ScriptLabel" id="Label5" value="LOOP MOD"/>
+    <Control type="ScriptLabel" id="Label6" value="Root Note"/>
+    <Control type="ScriptButton" id="Button8" value="1"/>
+    <Control type="ScriptLabel" id="Label7" value="Pitch"/>
+    <Control type="ScriptAudioWaveform" id="AudioWaveform3" value="0" rangeStart="0"
+             rangeEnd="0" fileName=""/>
+    <Control type="ScriptSlider" id="Knob36" value="0"/>
+    <Control type="ScriptButton" id="Button15" value="0"/>
+    <Control type="ScriptButton" id="Button21" value="0"/>
+    <Control type="ScriptLabel" id="Label69" value="Loop"/>
+    <Control type="ScriptButton" id="Button22" value="0"/>
+    <Control type="ScriptSlider" id="Knob52" value="0"/>
+    <Control type="ScriptLabel" id="Label70" value="Reverse"/>
+    <Control type="ScriptButton" id="Button23" value="0"/>
+    <Control type="ScriptLabel" id="Label71" value="Pitch"/>
+    <Control type="ScriptComboBox" id="ComboBox3" value="1"/>
+    <Control type="ScriptLabel" id="Label45" value="FX"/>
+    <Control type="ScriptButton" id="Button14" value="1"/>
+    <Control type="ScriptSlider" id="Knob19" value="6"/>
+    <Control type="ScriptSlider" id="Knob26" value="13"/>
+    <Control type="ScriptSlider" id="Knob27" value="0"/>
+    <Control type="ScriptSlider" id="Knob28" value="0"/>
+    <Control type="ScriptLabel" id="Label38" value="DELAY"/>
+    <Control type="ScriptLabel" id="Label39" value="L          R"/>
+    <Control type="ScriptLabel" id="Label40" value="FEED BACK"/>
+    <Control type="ScriptSlider" id="Knob29" value="0.5"/>
+    <Control type="ScriptLabel" id="Label41" value="MIX"/>
+    <Control type="ScriptLabel" id="Label42" value="SIZE"/>
+    <Control type="ScriptSlider" id="Knob30" value="0.34999999"/>
+    <Control type="ScriptSlider" id="Knob31" value="0.14"/>
+    <Control type="ScriptLabel" id="Label43" value="REVERB"/>
+    <Control type="ScriptLabel" id="Label44" value="WET"/>
+    <Control type="ScriptSlider" id="Knob32" value="0"/>
+    <Control type="ScriptSlider" id="Knob33" value="0"/>
+    <Control type="ScriptLabel" id="Label47" value="Spread"/>
+    <Control type="ScriptLabel" id="Label48" value="Damp"/>
+    <Control type="ScriptSlider" id="Knob39" value="0"/>
+    <Control type="ScriptSlider" id="Knob40" value="0"/>
+    <Control type="ScriptSlider" id="Knob41" value="0"/>
+    <Control type="ScriptSlider" id="Knob42" value="0.25999999"/>
+    <Control type="ScriptSlider" id="Knob43" value="0"/>
+    <Control type="ScriptButton" id="Button25" value="0"/>
+    <Control type="ScriptLabel" id="Label76" value="Width"/>
+    <Control type="ScriptSlider" id="Knob44" value="0.68000001"/>
+    <Control type="ScriptSlider" id="Knob46" value="0.25999999"/>
+    <Control type="ScriptSlider" id="Knob45" value="0"/>
+    <Control type="ScriptLabel" id="Label46" value="CHORUS"/>
+    <Control type="ScriptLabel" id="Label49" value="PHAZE"/>
+    <Control type="ScriptLabel" id="Label50" value=""/>
+    <Control type="ScriptButton" id="Button26" value="0"/>
+    <Control type="ScriptButton" id="Button17" value="1"/>
+    <Control type="ScriptButton" id="Button18" value="0"/>
+    <Control type="ScriptButton" id="Button19" value="0"/>
+    <Control type="ScriptLabel" id="Label53" value=""/>
+    <Control type="ScriptSlider" id="Knob48" value="3"/>
+    <Control type="ScriptSlider" id="Knob49" value="0.23999999"/>
+    <Control type="ScriptLabel" id="Label54" value=""/>
+    <Control type="ScriptSlider" id="Knob50" value="0.029999999"/>
+    <Control type="ScriptSlider" id="Knob51" value="0"/>
+    <Control type="ScriptLabel" id="Label55" value=""/>
+    <Control type="ScriptLabel" id="Label62" value="Saturation"/>
+    <Control type="ScriptLabel" id="Label63" value="Pre"/>
+    <Control type="ScriptLabel" id="Label64" value="Sat"/>
+    <Control type="ScriptLabel" id="Label65" value="Post"/>
+    <Control type="ScriptLabel" id="Label66" value="Wet"/>
+    <Control type="ScriptButton" id="Button20" value="1"/>
+    <Control type="ScriptLabel" id="Label75" value="Rate"/>
+    <Control type="ScriptLabel" id="Label77" value="FD. BK"/>
+    <Control type="ScriptLabel" id="Label78" value="Delay"/>
+    <Control type="ScriptLabel" id="Label79" value="Freq 1"/>
+    <Control type="ScriptLabel" id="Label80" value="Freq 2"/>
+    <Control type="ScriptLabel" id="Label81" value="FD. BK."/>
+    <Control type="ScriptLabel" id="Label82" value="MIX"/>
+    <Control type="ScriptSlider" id="Knob34" value="20"/>
+    <Control type="ScriptSlider" id="Knob35" value="1503"/>
+    <Control type="ScriptLabel" id="Label51" value=""/>
+    <Control type="ScriptLabel" id="Label52" value=""/>
+    <Control type="ScriptLabel" id="Label56" value=""/>
+    <Control type="ScriptLabel" id="Label57" value=""/>
+    <Control type="ScriptLabel" id="Label58" value="lo Pass"/>
+    <Control type="ScriptLabel" id="Label59" value="Hi Pass"/>
+    <Control type="ScriptComboBox" id="ComboBox1" value="3"/>
+  </Content>
+  <MidiAutomation/>
+  <MPEData Enabled="1"/>
+</Preset>
